@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Halant|Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+.main-nav {
+    list-style: none;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.logo {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+li {
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px 7px;
+    width: auto;
+} 
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu:hover {
+    border: 3px solid white;
+    padding: 3px;
+}
+.locations:hover {
+    border: 3px solid white;
+    padding: 3px;
+}
+.story:hover {
+    border: 3px solid white;
+    padding: 3px;
+}
+
+.menu:active {
+    border: 3px solid white;
+}
+.locations:active {
+    border: 3px solid white;
+}
+.story:active {
+    border: 3px solid white;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #999999;
+}
+
+/* Wallpaper */
+.main-image {
+    background: url("./images/background2.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+.main-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Halant', serif;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Content */
+#container {
+    width: 100%;
+    
+    
+}
+
+.bar {
+    background: url("./images/bar.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+.bar-text {
+    float: right;
+    margin: 300px 10px 20px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.reservations {
+    background: url("./images/reservations.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    top: 0;
+    float: left;
+}
+.reservations-text {
+    float: right;
+    margin: 300px 10px 20px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.catering{
+    background: url("./images/catering.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    top: 0;
+    float: left;
+}
+.catering-text {
+    float: right;
+    margin: 300px 10px 20px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.ord-online {
+    background: url("./images/orderNow.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    top: 0;
+    float: left;
+    overflow: hidden;
+}
+.ord-text {
+    float: right;
+    margin: 300px 10px 20px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+/* Footer */
+.site {
+    width: 100%;
+    background-color: #999999;
+}
+
+.find-us {
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 50%;
+}
+
+.follow-us {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
